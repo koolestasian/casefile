@@ -1,10 +1,9 @@
 # Casefile
 
 A Rust investigation workbench that combines AI proposals with deterministic
-verification, cited evidence and human approval.
+verification, cited evidence and human approval. Built for an ESEC x NetworkAI 2026 case competition.
 
-**Technical lead: Kevin Pham — system architecture, Rust engine, agent-tool
-integration, performance optimization and evaluation.**
+**Technical lead: Kevin Pham — system architecture, performance optimization and evaluation.**
 
 Casefile connects related burglary reports, matches stolen property against pawn
 records, and assembles a reviewable lead packet. Its central design separates
@@ -85,7 +84,7 @@ separately; the checked-in recordings support the public offline demo.
 
 ## Project origin
 
-Built for an ESEC case competition. This repository presents the technical system
+This repository presents the technical system
 and architecture; the [original team project](https://github.com/StevenMC06/burglary-backlog-case)
 preserves the collaborative project history. Vendor notices are in
 [ui/vendor/LICENSES.txt](ui/vendor/LICENSES.txt).
