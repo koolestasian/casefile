@@ -1,0 +1,26 @@
+.DS_Store
+.env
+.env.*
+!.env.example
+node_modules/
+.venv/
+__pycache__/
+*.pem
+*.key
+/target
+**/target
+*.log
+/media/raw/
+/media/tmp/
+*.pyc
+.claude/worktrees/
+media/models/
+
+# Local working material and live-agent prompts
+/private/
+/AGENTS.md
+/.claude/
+/agents/*/system.md
+/data/audit.jsonl
+/data/approvals.json
+/docs/deck/

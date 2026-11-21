@@ -1,0 +1,80 @@
+{
+  "agent": "extractor",
+  "input_id": "CC-26-001968",
+  "model": "haiku",
+  "recorded_at": "unix:1793945475",
+  "events": [
+    {
+      "type": "assistant",
+      "message": {
+        "content": [
+          {
+            "type": "tool_use",
+            "id": "toolu_01RGmtVf68aqinjKnmUhX1FE",
+            "name": "StructuredOutput",
+            "input": {
+              "items": [
+                "QSA-C3AG6"
+              ],
+              "mo": {
+                "entry_method": "smash",
+                "entry_point": "rear_door",
+                "premise": "residential",
+                "property_types": [
+                  "tablet",
+                  "tools",
+                  "phone"
+                ],
+                "signatures": [
+                  "used_pillowcase",
+                  "disabled_doorbell_cam"
+                ],
+                "time_band": "unknown",
+                "weekday": true
+              },
+              "notes": "The offense window (WED 04NOV, 1410-1910) spans midday into evening, so time_band is unknown rather than a single band. The narrative says the rear door glass was smashed, which is recorded as smash; I have not inferred anything beyond that, and the two non-serialized items (I2, I3) are not listed in items."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "user",
+      "message": {
+        "content": [
+          {
+            "type": "tool_result",
+            "tool_use_id": "toolu_01RGmtVf68aqinjKnmUhX1FE",
+            "content": "Structured output provided successfully"
+          }
+        ]
+      }
+    }
+  ],
+  "output": {
+    "items": [
+      "QSA-C3AG6"
+    ],
+    "mo": {
+      "entry_method": "smash",
+      "entry_point": "rear_door",
+      "premise": "residential",
+      "property_types": [
+        "tablet",
+        "tools",
+        "phone"
+      ],
+      "signatures": [
+        "used_pillowcase",
+        "disabled_doorbell_cam"
+      ],
+      "time_band": "unknown",
+      "weekday": true
+    },
+    "notes": "The offense window (WED 04NOV, 1410-1910) spans midday into evening, so time_band is unknown rather than a single band. The narrative says the rear door glass was smashed, which is recorded as smash; I have not inferred anything beyond that, and the two non-serialized items (I2, I3) are not listed in items."
+  },
+  "duration_ms": 7201,
+  "cost_usd": 0.001720125,
+  "input_tokens": 13019,
+  "output_tokens": 1574
+}

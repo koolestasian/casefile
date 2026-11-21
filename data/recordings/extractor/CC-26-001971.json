@@ -1,0 +1,78 @@
+{
+  "agent": "extractor",
+  "input_id": "CC-26-001971",
+  "model": "haiku",
+  "recorded_at": "unix:1793945500",
+  "events": [
+    {
+      "type": "assistant",
+      "message": {
+        "content": [
+          {
+            "type": "tool_use",
+            "id": "toolu_01Fge3NrDWoKWXbFBMw3zRUF",
+            "name": "StructuredOutput",
+            "input": {
+              "items": [
+                "WPY-7UX9R",
+                "GHL-W6GKG"
+              ],
+              "mo": {
+                "entry_method": "unknown",
+                "entry_point": "garage_door",
+                "premise": "storage",
+                "property_types": [
+                  "firearm",
+                  "electronics"
+                ],
+                "signatures": [
+                  "disabled_doorbell_cam"
+                ],
+                "time_band": "evening",
+                "weekday": true
+              },
+              "notes": "Entry method is recorded as undetermined, so it is marked unknown; the garage door is the stated point of entry. The offense window (WED 04NOV, 1836-2136) is within the evening band and falls on a weekday."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "user",
+      "message": {
+        "content": [
+          {
+            "type": "tool_result",
+            "tool_use_id": "toolu_01Fge3NrDWoKWXbFBMw3zRUF",
+            "content": "Structured output provided successfully"
+          }
+        ]
+      }
+    }
+  ],
+  "output": {
+    "items": [
+      "WPY-7UX9R",
+      "GHL-W6GKG"
+    ],
+    "mo": {
+      "entry_method": "unknown",
+      "entry_point": "garage_door",
+      "premise": "storage",
+      "property_types": [
+        "firearm",
+        "electronics"
+      ],
+      "signatures": [
+        "disabled_doorbell_cam"
+      ],
+      "time_band": "evening",
+      "weekday": true
+    },
+    "notes": "Entry method is recorded as undetermined, so it is marked unknown; the garage door is the stated point of entry. The offense window (WED 04NOV, 1836-2136) is within the evening band and falls on a weekday."
+  },
+  "duration_ms": 5797,
+  "cost_usd": 0.00166,
+  "input_tokens": 12974,
+  "output_tokens": 1378
+}

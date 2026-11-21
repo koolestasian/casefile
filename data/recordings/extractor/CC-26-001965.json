@@ -1,0 +1,80 @@
+{
+  "agent": "extractor",
+  "input_id": "CC-26-001965",
+  "model": "haiku",
+  "recorded_at": "unix:1793945391",
+  "events": [
+    {
+      "type": "assistant",
+      "message": {
+        "content": [
+          {
+            "type": "tool_use",
+            "id": "toolu_01UkB3K6ANUjMXuZZcCEWwmb",
+            "name": "StructuredOutput",
+            "input": {
+              "items": [
+                "KMM-XXVWV"
+              ],
+              "mo": {
+                "entry_method": "pry",
+                "entry_point": "sliding_door",
+                "premise": "residential",
+                "property_types": [
+                  "tools",
+                  "tablet",
+                  "other"
+                ],
+                "signatures": [
+                  "took_vehicle_keys",
+                  "vehicle_left_behind"
+                ],
+                "time_band": "evening",
+                "weekday": true
+              },
+              "notes": "The offense window (last secure 1541 to discovery 1841 on Wed 04NOV) runs from afternoon into evening, so the time band is a judgment call; \"midday\" and \"unknown\" are also defensible. The Torvane tool chest has no serial number, and the vehicle keys are coded as \"other\" property since the narrative does not describe the keys further."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "user",
+      "message": {
+        "content": [
+          {
+            "type": "tool_result",
+            "tool_use_id": "toolu_01UkB3K6ANUjMXuZZcCEWwmb",
+            "content": "Structured output provided successfully"
+          }
+        ]
+      }
+    }
+  ],
+  "output": {
+    "items": [
+      "KMM-XXVWV"
+    ],
+    "mo": {
+      "entry_method": "pry",
+      "entry_point": "sliding_door",
+      "premise": "residential",
+      "property_types": [
+        "tools",
+        "tablet",
+        "other"
+      ],
+      "signatures": [
+        "took_vehicle_keys",
+        "vehicle_left_behind"
+      ],
+      "time_band": "evening",
+      "weekday": true
+    },
+    "notes": "The offense window (last secure 1541 to discovery 1841 on Wed 04NOV) runs from afternoon into evening, so the time band is a judgment call; \"midday\" and \"unknown\" are also defensible. The Torvane tool chest has no serial number, and the vehicle keys are coded as \"other\" property since the narrative does not describe the keys further."
+  },
+  "duration_ms": 8486,
+  "cost_usd": 0.0027688,
+  "input_tokens": 12974,
+  "output_tokens": 1805
+}

@@ -1,0 +1,112 @@
+{
+  "agent": "victim_liaison",
+  "input_id": "CC-26-001996",
+  "model": "haiku",
+  "recorded_at": "unix:1793945671",
+  "events": [
+    {
+      "type": "assistant",
+      "message": {
+        "content": [
+          {
+            "type": "tool_use",
+            "id": "toolu_01U856NwSjQvCG2wq2pzaQo9",
+            "name": "mcp__casefile__get_case",
+            "input": {
+              "case_id": "CC-26-001996"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "user",
+      "message": {
+        "content": [
+          {
+            "type": "tool_result",
+            "tool_use_id": "toolu_01U856NwSjQvCG2wq2pzaQo9",
+            "content": [
+              {
+                "text": "{\"beat\":\"B2\",\"block\":\"42XX BLOCK OF FREMONT AVE N\",\"facts\":{\"physical_evidence\":false,\"suspect_description\":false,\"traceable_property\":true,\"vehicle_description\":false,\"video_available\":true,\"window_hours\":66.0,\"witness\":false},\"id\":\"CC-26-001996\",\"items\":[{\"brand\":\"Aldane\",\"category\":\"laptop\",\"description\":\"Aldane K15 Pro laptop, blue\",\"id\":\"CC-26-001996-I1\",\"markings\":[],\"model\":\"K15 Pro\",\"serial\":\"VLX-FUW9X\",\"value_usd\":1285},{\"brand\":null,\"category\":\"jewelry\",\"description\":\"wristwatch\",\"id\":\"CC-26-001996-I2\",\"markings\":[],\"model\":null,\"serial\":null,\"value_usd\":4345}],\"location\":{\"lat\":47.658077804978845,\"lon\":-122.34953756593887},\"mo\":{\"entry_method\":\"pry\",\"entry_point\":\"rear_door\",\"premise\":\"residential\",\"property_types\":[\"laptop\",\"other\"],\"signatures\":[\"pried_rear_door_frame\"],\"time_band\":\"unknown\",\"weekday\":true},\"mo_extracted\":true,\"narrative\":\"RP returned from travel to find residence burglarized, window WED 28OCT 0200 - FRI 30OCT 2000. POE rear door, pried (pry marks on frame). Taken: Aldane K15 Pro laptop, blue (S/N VLX-FUW9X); wristwatch. Est. loss $5630. video available from nearby cam.\",\"neighborhood\":\"FREMONT\",\"note\":\"Times are UTC. Cite fields as [case_id:field], e.g. [CC-25-004812:mo.entry_point] or [CC-25-004812:items[I-1].serial].\",\"reported_at\":1793887200,\"reported_at_iso\":\"2026-11-05T14:00:00Z\",\"status\":{\"kind\":\"open\"},\"window_end\":1793419200,\"window_end_iso\":\"2026-10-31T04:00:00Z\",\"window_start\":1793181600,\"window_start_iso\":\"2026-10-28T10:00:00Z\"}",
+                "type": "text"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "assistant",
+      "message": {
+        "content": [
+          {
+            "type": "tool_use",
+            "id": "toolu_01176pQEkBWTai3PA5XhGfzU",
+            "name": "mcp__casefile__draft_victim_update",
+            "input": {
+              "case_id": "CC-26-001996",
+              "language": "en",
+              "message": "Thank you for reporting the burglary at your home on the 42XX block of Fremont Ave N. Your report is on file under case CC-26-001996, and a detective will review it as part of our work on the case. We know this is a stressful experience, and we are sorry it happened. If you remember anything new, such as a detail about the property, the dates, or anything you noticed, please contact the Cascade City burglary unit and reference your case number so it can be added to the file. We will reach out if we need more information from you."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "user",
+      "message": {
+        "content": [
+          {
+            "type": "tool_result",
+            "tool_use_id": "toolu_01176pQEkBWTai3PA5XhGfzU",
+            "content": [
+              {
+                "text": "{\"draft_id\":\"DR-0001\",\"escalate_after_minutes\":120,\"message\":\"Draft stored. It has NOT been sent and cannot be sent by an agent; a person must approve it.\",\"status\":\"pending_approval\",\"ticket_id\":\"AP-0001\"}",
+                "type": "text"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "assistant",
+      "message": {
+        "content": [
+          {
+            "type": "tool_use",
+            "id": "toolu_014g4zwNenjB1qsu16oa23Qs",
+            "name": "StructuredOutput",
+            "input": {
+              "language": "en",
+              "message": "Thank you for reporting the burglary at your home on the 42XX block of Fremont Ave N. Your report is on file under case CC-26-001996, and a detective will review it as part of our work on the case. We know this is a stressful experience, and we are sorry it happened. If you remember anything new, such as a detail about the property, the dates, or anything you noticed, please contact the Cascade City burglary unit and reference your case number so it can be added to the file. We will reach out if we need more information from you.",
+              "plain_english_summary": "Tells the victim of case CC-26-001996 that their report is on file, a detective will review it, and they can add new information by contacting the burglary unit with their case number (draft DR-0001, pending human approval under ticket AP-0001)."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "user",
+      "message": {
+        "content": [
+          {
+            "type": "tool_result",
+            "tool_use_id": "toolu_014g4zwNenjB1qsu16oa23Qs",
+            "content": "Structured output provided successfully"
+          }
+        ]
+      }
+    }
+  ],
+  "output": {
+    "language": "en",
+    "message": "Thank you for reporting the burglary at your home on the 42XX block of Fremont Ave N. Your report is on file under case CC-26-001996, and a detective will review it as part of our work on the case. We know this is a stressful experience, and we are sorry it happened. If you remember anything new, such as a detail about the property, the dates, or anything you noticed, please contact the Cascade City burglary unit and reference your case number so it can be added to the file. We will reach out if we need more information from you.",
+    "plain_english_summary": "Tells the victim of case CC-26-001996 that their report is on file, a detective will review it, and they can add new information by contacting the burglary unit with their case number (draft DR-0001, pending human approval under ticket AP-0001)."
+  },
+  "duration_ms": 5844,
+  "cost_usd": 0.001977935,
+  "input_tokens": 26316,
+  "output_tokens": 1004
+}

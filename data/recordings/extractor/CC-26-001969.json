@@ -1,0 +1,80 @@
+{
+  "agent": "extractor",
+  "input_id": "CC-26-001969",
+  "model": "haiku",
+  "recorded_at": "unix:1793945484",
+  "events": [
+    {
+      "type": "assistant",
+      "message": {
+        "content": [
+          {
+            "type": "tool_use",
+            "id": "toolu_01XXwaxdSoJBCzDnQYuMsvGC",
+            "name": "StructuredOutput",
+            "input": {
+              "items": [
+                "4W0-G8D0Z"
+              ],
+              "mo": {
+                "entry_method": "kick",
+                "entry_point": "rear_door",
+                "premise": "commercial",
+                "property_types": [
+                  "laptop",
+                  "electronics",
+                  "tools"
+                ],
+                "signatures": [
+                  "disabled_doorbell_cam",
+                  "targeted_safe"
+                ],
+                "time_band": "evening",
+                "weekday": true
+              },
+              "notes": "The offense window runs 1705-2005 on Wed 04NOV, so it is tagged evening and weekday true. The soundbar's \"ZX-0037\" etched mark is treated as an identifying marking, not a serial, because the item list says no serial; the laptop serial 4W0-G8D0Z is the only serial listed."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "user",
+      "message": {
+        "content": [
+          {
+            "type": "tool_result",
+            "tool_use_id": "toolu_01XXwaxdSoJBCzDnQYuMsvGC",
+            "content": "Structured output provided successfully"
+          }
+        ]
+      }
+    }
+  ],
+  "output": {
+    "items": [
+      "4W0-G8D0Z"
+    ],
+    "mo": {
+      "entry_method": "kick",
+      "entry_point": "rear_door",
+      "premise": "commercial",
+      "property_types": [
+        "laptop",
+        "electronics",
+        "tools"
+      ],
+      "signatures": [
+        "disabled_doorbell_cam",
+        "targeted_safe"
+      ],
+      "time_band": "evening",
+      "weekday": true
+    },
+    "notes": "The offense window runs 1705-2005 on Wed 04NOV, so it is tagged evening and weekday true. The soundbar's \"ZX-0037\" etched mark is treated as an identifying marking, not a serial, because the item list says no serial; the laptop serial 4W0-G8D0Z is the only serial listed."
+  },
+  "duration_ms": 6466,
+  "cost_usd": 0.00162205,
+  "input_tokens": 13052,
+  "output_tokens": 1395
+}

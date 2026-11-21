@@ -1,0 +1,76 @@
+{
+  "agent": "extractor",
+  "input_id": "CC-26-001999",
+  "model": "haiku",
+  "recorded_at": "unix:1793945447",
+  "events": [
+    {
+      "type": "assistant",
+      "message": {
+        "content": [
+          {
+            "type": "tool_use",
+            "id": "toolu_012nULgPZq3nYPgV4vbSh3oL",
+            "name": "StructuredOutput",
+            "input": {
+              "items": [],
+              "mo": {
+                "entry_method": "pry",
+                "entry_point": "sliding_door",
+                "premise": "residential",
+                "property_types": [
+                  "electronics",
+                  "cash",
+                  "tools"
+                ],
+                "signatures": [
+                  "ransacked_master_bedroom",
+                  "used_pillowcase"
+                ],
+                "time_band": "night",
+                "weekday": true
+              },
+              "notes": "The offense window (Thu 05NOV 0145-0700) falls on a weekday but spans late night into early morning, so the time band is a judgment call. None of the three items has a serial number, and the individual item values are not stated, so the $2205 total cannot be checked item by item."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "user",
+      "message": {
+        "content": [
+          {
+            "type": "tool_result",
+            "tool_use_id": "toolu_012nULgPZq3nYPgV4vbSh3oL",
+            "content": "Structured output provided successfully"
+          }
+        ]
+      }
+    }
+  ],
+  "output": {
+    "items": [],
+    "mo": {
+      "entry_method": "pry",
+      "entry_point": "sliding_door",
+      "premise": "residential",
+      "property_types": [
+        "electronics",
+        "cash",
+        "tools"
+      ],
+      "signatures": [
+        "ransacked_master_bedroom",
+        "used_pillowcase"
+      ],
+      "time_band": "night",
+      "weekday": true
+    },
+    "notes": "The offense window (Thu 05NOV 0145-0700) falls on a weekday but spans late night into early morning, so the time band is a judgment call. None of the three items has a serial number, and the individual item values are not stated, so the $2205 total cannot be checked item by item."
+  },
+  "duration_ms": 6804,
+  "cost_usd": 0.0015493,
+  "input_tokens": 13002,
+  "output_tokens": 1404
+}

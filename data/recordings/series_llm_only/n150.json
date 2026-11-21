@@ -1,0 +1,610 @@
+{
+  "agent": "series_llm_only",
+  "input_id": "n150",
+  "model": "opus",
+  "recorded_at": "unix:1793945836",
+  "events": [
+    {
+      "type": "assistant",
+      "message": {
+        "content": [
+          {
+            "type": "tool_use",
+            "id": "toolu_01NPN3pQ1sTUg1LSxkqPuPTA",
+            "name": "StructuredOutput",
+            "input": {
+              "hypotheses": [
+                {
+                  "case_ids": [
+                    "CC-25-000345",
+                    "CC-26-000358",
+                    "CC-26-000416",
+                    "CC-26-000426"
+                  ],
+                  "rationale_with_citations": "Each is an overnight or early-morning home burglary through a rear door opened with a key or code, with no force. The loss each time is one Fenwick camera plus cash [CC-25-000345:narrative][CC-26-000358:narrative][CC-26-000416:narrative][CC-26-000426:narrative]. All four share two habits: a pillowcase from the bed was used to carry property, and vehicle keys were taken but the vehicle was left [CC-26-000358:narrative][CC-26-000426:narrative]. CC-25-000347 has the same pattern but the exact same time window (0245-0315 on 31DEC) in Highland Park, a different area [CC-25-000347:narrative]. One offender could not do both, so it was left out; the analyst should decide which of the pair belongs."
+                },
+                {
+                  "case_ids": [
+                    "CC-26-000589",
+                    "CC-26-000592",
+                    "CC-26-000603",
+                    "CC-26-000674",
+                    "CC-26-000713"
+                  ],
+                  "rationale_with_citations": "Each is an overnight or early-morning home burglary in Ballard South, Queen Anne or Fremont, with the front door glass smashed [CC-26-000589:narrative][CC-26-000592:narrative][CC-26-000603:narrative]. The loss each time is a Fenwick camera, one home electronics item and a cell phone [CC-26-000674:narrative][CC-26-000713:narrative]. All five used a pillowcase as a bag and took vehicle keys but left the vehicle. They fall within four weeks, 16FEB to 12MAR [CC-26-000592:narrative][CC-26-000713:narrative]."
+                },
+                {
+                  "case_ids": [
+                    "CC-26-001530",
+                    "CC-26-001636"
+                  ],
+                  "rationale_with_citations": "Both are early-morning home burglaries in North Beacon Hill, with the rear door kicked in [CC-26-001530:narrative][CC-26-001636:narrative]. Each lost small cash plus one cell phone; the pillowcase was used as a bag and vehicle keys were taken but the vehicle left [CC-26-001530:narrative][CC-26-001636:narrative]."
+                },
+                {
+                  "case_ids": [
+                    "CC-25-000198",
+                    "CC-25-000234",
+                    "CC-25-000261",
+                    "CC-25-000312",
+                    "CC-26-000391"
+                  ],
+                  "rationale_with_citations": "Each is a late-evening business burglary, ending between 2300 and 2400, through a smashed window. The loss each time is one power tool plus cash, with the safe targeted [CC-25-000198:narrative][CC-25-000234:narrative][CC-25-000312:narrative][CC-26-000391:narrative]. Electronics were left behind each time. Four are in Northgate and one is in nearby Greenwood, 09DEC to 09JAN [CC-25-000261:narrative]."
+                },
+                {
+                  "case_ids": [
+                    "CC-26-000409",
+                    "CC-26-000445",
+                    "CC-26-000473",
+                    "CC-26-000482"
+                  ],
+                  "rationale_with_citations": "Each is a weekday daytime business burglary through a rear door with the glass smashed. The loss each time is power tools plus cash [CC-26-000409:narrative][CC-26-000445:narrative][CC-26-000473:narrative][CC-26-000482:narrative]. Each time the doorbell cam was disabled or covered and electronics were left. All four fall within 13JAN to 28JAN in central neighbourhoods [CC-26-000445:narrative][CC-26-000482:narrative]."
+                },
+                {
+                  "case_ids": [
+                    "CC-25-000120",
+                    "CC-25-000141",
+                    "CC-25-000210"
+                  ],
+                  "rationale_with_citations": "Each is a daytime-to-evening home burglary through a roof or vent opening, pried, with the master bedroom (MBR) ransacked [CC-25-000120:narrative][CC-25-000141:narrative][CC-25-000210:narrative]. Each lost a cell phone plus jewellery. Two of them lost a blue Lumo Edge 5 phone and assorted rings and earrings, in Northgate 12 days apart [CC-25-000141:narrative][CC-25-000210:narrative]."
+                },
+                {
+                  "case_ids": [
+                    "CC-25-000158",
+                    "CC-25-000165"
+                  ],
+                  "rationale_with_citations": "Both are daytime home burglaries in Capitol Hill on consecutive days, 04DEC and 05DEC, through a rear or sliding door that was pried [CC-25-000158:narrative][CC-25-000165:narrative]. Each lost cash, an Aldane K14 laptop and a phone; the MBR was ransacked and a safe targeted [CC-25-000158:narrative][CC-25-000165:narrative]."
+                },
+                {
+                  "case_ids": [
+                    "CC-25-000341",
+                    "CC-26-000485"
+                  ],
+                  "rationale_with_citations": "Both are daytime home burglaries in Mount Baker through a rear door opened with a key or code. Both lost a white Kestrel Ultra 16 laptop and a Sonique 55in TV [CC-25-000341:narrative][CC-26-000485:narrative]. Both had the MBR ransacked and the doorbell cam unplugged or covered [CC-25-000341:narrative][CC-26-000485:narrative]."
+                },
+                {
+                  "case_ids": [
+                    "CC-26-000413",
+                    "CC-26-000431"
+                  ],
+                  "rationale_with_citations": "Both are daytime burglaries of a detached garage in SLU/Cascade, three days apart, through a garage door with the glass smashed [CC-26-000413:narrative][CC-26-000431:narrative]. Each lost a Cyclade bicycle plus one electronics item, and the doorbell cam was unplugged or covered [CC-26-000413:narrative][CC-26-000431:narrative]."
+                },
+                {
+                  "case_ids": [
+                    "CC-26-000491",
+                    "CC-26-000553",
+                    "CC-26-000558",
+                    "CC-26-000633",
+                    "CC-26-000731"
+                  ],
+                  "rationale_with_citations": "Each is a daytime or early-evening detached-garage burglary through a window opened with a key or code, with no force [CC-26-000491:narrative][CC-26-000553:narrative][CC-26-000558:narrative]. The loss each time is a bicycle plus a bag or luggage and an electronics item or tool [CC-26-000633:narrative][CC-26-000731:narrative]. Most had the doorbell cam unplugged. The cases are in nearby SODO, Downtown and Capitol Hill, 29JAN to 18MAR."
+                },
+                {
+                  "case_ids": [
+                    "CC-26-000547",
+                    "CC-26-000627",
+                    "CC-26-000636"
+                  ],
+                  "rationale_with_citations": "Each is a morning storage-unit burglary through a roof or vent opening with the glass smashed. The loss each time is a power tool, a TV or soundbar and a bicycle [CC-26-000547:narrative][CC-26-000627:narrative][CC-26-000636:narrative]. All three had the doorbell cam unplugged and a safe targeted. They are in nearby Wallingford, Fremont and University, within 15 days."
+                },
+                {
+                  "case_ids": [
+                    "CC-26-001036",
+                    "CC-26-001069",
+                    "CC-26-001121",
+                    "CC-26-001171"
+                  ],
+                  "rationale_with_citations": "Each is a daytime detached-garage burglary in Queen Anne through the garage door, opened with a key or code [CC-26-001036:narrative][CC-26-001069:narrative][CC-26-001121:narrative][CC-26-001171:narrative]. Each lost a bicycle plus a handbag, backpack or coin collection, and electronics were ignored. All four fall within 17MAY to 07JUN. In two of them a witness saw a subject in a dark hoodie leaving on foot [CC-26-001036:narrative][CC-26-001171:narrative]."
+                },
+                {
+                  "case_ids": [
+                    "CC-26-001416",
+                    "CC-26-001499",
+                    "CC-26-001583",
+                    "CC-26-001700"
+                  ],
+                  "rationale_with_citations": "Each is a daytime storage-unit burglary in Ballard South, pried at an unknown point of entry (POE). The loss each time is a bicycle plus a Brannock handgun and a personal item [CC-26-001416:narrative][CC-26-001499:narrative][CC-26-001583:narrative][CC-26-001700:narrative]. Each time the doorbell cam was disabled and electronics were left. The cases are roughly two weeks apart, 26JUL to 13SEP."
+                },
+                {
+                  "case_ids": [
+                    "CC-26-001656",
+                    "CC-26-001728"
+                  ],
+                  "rationale_with_citations": "Both are late-night storage-unit burglaries in Belltown, Saturdays two weeks apart, through a roof or vent opening that was pried [CC-26-001656:narrative][CC-26-001728:narrative]. Each lost a Brannock B9 handgun, a power tool and a Vantel electronics item; the doorbell cam was unplugged and a safe targeted [CC-26-001656:narrative][CC-26-001728:narrative]."
+                },
+                {
+                  "case_ids": [
+                    "CC-26-001387",
+                    "CC-26-001409",
+                    "CC-26-001442"
+                  ],
+                  "rationale_with_citations": "Each is a daytime home burglary through a sliding door with the screen cut. The loss each time is a power tool, cash and jewellery or a watch; electronics were ignored and vehicle keys taken but the vehicle left [CC-26-001387:narrative][CC-26-001409:narrative][CC-26-001442:narrative]. The cases are in nearby Capitol Hill, Judkins Park and Chinatown, within 11 days. CC-26-001353 and CC-26-001354 match the pattern but share the same time window in distant areas [CC-26-001353:narrative][CC-26-001354:narrative], so both were left out."
+                },
+                {
+                  "case_ids": [
+                    "CC-26-001594",
+                    "CC-26-001604",
+                    "CC-26-001612"
+                  ],
+                  "rationale_with_citations": "Each is an evening home burglary through a rear window opened with a key or code, with no force [CC-26-001594:narrative][CC-26-001604:narrative][CC-26-001612:narrative]. Each lost two Ridgeback or Torvane power tools plus cash, and electronics were ignored. The cases are in Central Area and Capitol Hill, 24AUG to 28AUG."
+                },
+                {
+                  "case_ids": [
+                    "CC-26-001734",
+                    "CC-26-001743",
+                    "CC-26-001768",
+                    "CC-26-001819",
+                    "CC-26-001851"
+                  ],
+                  "rationale_with_citations": "Each is a weekday morning business burglary with the front door kicked in. The loss each time is a cell phone plus speakers, a soundbar or a TV [CC-26-001734:narrative][CC-26-001743:narrative][CC-26-001768:narrative][CC-26-001819:narrative]. Every case had the doorbell cam disabled or covered. They are in Belltown, Capitol Hill and SLU, 21SEP to 13OCT [CC-26-001851:narrative]."
+                },
+                {
+                  "case_ids": [
+                    "CC-26-000734",
+                    "CC-26-000845"
+                  ],
+                  "rationale_with_citations": "Both are daytime home burglaries in north-end neighbourhoods through the front door with the glass smashed. Each lost a phone, cash and a Playnova Core 5 Slim console [CC-26-000734:narrative][CC-26-000845:narrative]. Both had a safe targeted and vehicle keys taken but the vehicle left [CC-26-000734:narrative][CC-26-000845:narrative]."
+                },
+                {
+                  "case_ids": [
+                    "CC-26-001637",
+                    "CC-26-001703"
+                  ],
+                  "rationale_with_citations": "Both are overnight-to-morning home burglaries (location UNKNOWN) through a window with the glass smashed. Each lost an Optara camera plus a game console [CC-26-001637:narrative][CC-26-001703:narrative]. Both had the doorbell cam disabled and a small safe targeted and removed, 13 days apart [CC-26-001637:narrative][CC-26-001703:narrative]."
+                },
+                {
+                  "case_ids": [
+                    "CC-26-001611",
+                    "CC-26-001672"
+                  ],
+                  "rationale_with_citations": "Both are late-evening home burglaries in Sandpoint, ending at 2400, through a sliding door with the glass smashed [CC-26-001611:narrative][CC-26-001672:narrative]. Each lost a cell phone and camera, and vehicle keys were taken but the vehicle left [CC-26-001611:narrative][CC-26-001672:narrative]."
+                },
+                {
+                  "case_ids": [
+                    "CC-25-000103",
+                    "CC-25-000229",
+                    "CC-26-000393"
+                  ],
+                  "rationale_with_citations": "Each is an overnight business burglary through a roof or vent opening that was pried. The loss each time is a power tool, with cash in two of them, and electronics were left [CC-25-000103:narrative][CC-25-000229:narrative][CC-26-000393:narrative]. Two are in Queen Anne and one is Downtown, 24NOV to 10JAN; two had the doorbell cam disabled [CC-25-000103:narrative][CC-26-000393:narrative]. This link is moderate and needs analyst review."
+                }
+              ],
+              "series": [
+                [
+                  "CC-25-000345",
+                  "CC-26-000358",
+                  "CC-26-000416",
+                  "CC-26-000426"
+                ],
+                [
+                  "CC-26-000589",
+                  "CC-26-000592",
+                  "CC-26-000603",
+                  "CC-26-000674",
+                  "CC-26-000713"
+                ],
+                [
+                  "CC-26-001530",
+                  "CC-26-001636"
+                ],
+                [
+                  "CC-25-000198",
+                  "CC-25-000234",
+                  "CC-25-000261",
+                  "CC-25-000312",
+                  "CC-26-000391"
+                ],
+                [
+                  "CC-26-000409",
+                  "CC-26-000445",
+                  "CC-26-000473",
+                  "CC-26-000482"
+                ],
+                [
+                  "CC-25-000120",
+                  "CC-25-000141",
+                  "CC-25-000210"
+                ],
+                [
+                  "CC-25-000158",
+                  "CC-25-000165"
+                ],
+                [
+                  "CC-25-000341",
+                  "CC-26-000485"
+                ],
+                [
+                  "CC-26-000413",
+                  "CC-26-000431"
+                ],
+                [
+                  "CC-26-000491",
+                  "CC-26-000553",
+                  "CC-26-000558",
+                  "CC-26-000633",
+                  "CC-26-000731"
+                ],
+                [
+                  "CC-26-000547",
+                  "CC-26-000627",
+                  "CC-26-000636"
+                ],
+                [
+                  "CC-26-001036",
+                  "CC-26-001069",
+                  "CC-26-001121",
+                  "CC-26-001171"
+                ],
+                [
+                  "CC-26-001416",
+                  "CC-26-001499",
+                  "CC-26-001583",
+                  "CC-26-001700"
+                ],
+                [
+                  "CC-26-001656",
+                  "CC-26-001728"
+                ],
+                [
+                  "CC-26-001387",
+                  "CC-26-001409",
+                  "CC-26-001442"
+                ],
+                [
+                  "CC-26-001594",
+                  "CC-26-001604",
+                  "CC-26-001612"
+                ],
+                [
+                  "CC-26-001734",
+                  "CC-26-001743",
+                  "CC-26-001768",
+                  "CC-26-001819",
+                  "CC-26-001851"
+                ],
+                [
+                  "CC-26-000734",
+                  "CC-26-000845"
+                ],
+                [
+                  "CC-26-001637",
+                  "CC-26-001703"
+                ],
+                [
+                  "CC-26-001611",
+                  "CC-26-001672"
+                ],
+                [
+                  "CC-25-000103",
+                  "CC-25-000229",
+                  "CC-26-000393"
+                ]
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "user",
+      "message": {
+        "content": [
+          {
+            "type": "tool_result",
+            "tool_use_id": "toolu_01NPN3pQ1sTUg1LSxkqPuPTA",
+            "content": "Structured output provided successfully"
+          }
+        ]
+      }
+    }
+  ],
+  "output": {
+    "hypotheses": [
+      {
+        "case_ids": [
+          "CC-25-000345",
+          "CC-26-000358",
+          "CC-26-000416",
+          "CC-26-000426"
+        ],
+        "rationale_with_citations": "Each is an overnight or early-morning home burglary through a rear door opened with a key or code, with no force. The loss each time is one Fenwick camera plus cash [CC-25-000345:narrative][CC-26-000358:narrative][CC-26-000416:narrative][CC-26-000426:narrative]. All four share two habits: a pillowcase from the bed was used to carry property, and vehicle keys were taken but the vehicle was left [CC-26-000358:narrative][CC-26-000426:narrative]. CC-25-000347 has the same pattern but the exact same time window (0245-0315 on 31DEC) in Highland Park, a different area [CC-25-000347:narrative]. One offender could not do both, so it was left out; the analyst should decide which of the pair belongs."
+      },
+      {
+        "case_ids": [
+          "CC-26-000589",
+          "CC-26-000592",
+          "CC-26-000603",
+          "CC-26-000674",
+          "CC-26-000713"
+        ],
+        "rationale_with_citations": "Each is an overnight or early-morning home burglary in Ballard South, Queen Anne or Fremont, with the front door glass smashed [CC-26-000589:narrative][CC-26-000592:narrative][CC-26-000603:narrative]. The loss each time is a Fenwick camera, one home electronics item and a cell phone [CC-26-000674:narrative][CC-26-000713:narrative]. All five used a pillowcase as a bag and took vehicle keys but left the vehicle. They fall within four weeks, 16FEB to 12MAR [CC-26-000592:narrative][CC-26-000713:narrative]."
+      },
+      {
+        "case_ids": [
+          "CC-26-001530",
+          "CC-26-001636"
+        ],
+        "rationale_with_citations": "Both are early-morning home burglaries in North Beacon Hill, with the rear door kicked in [CC-26-001530:narrative][CC-26-001636:narrative]. Each lost small cash plus one cell phone; the pillowcase was used as a bag and vehicle keys were taken but the vehicle left [CC-26-001530:narrative][CC-26-001636:narrative]."
+      },
+      {
+        "case_ids": [
+          "CC-25-000198",
+          "CC-25-000234",
+          "CC-25-000261",
+          "CC-25-000312",
+          "CC-26-000391"
+        ],
+        "rationale_with_citations": "Each is a late-evening business burglary, ending between 2300 and 2400, through a smashed window. The loss each time is one power tool plus cash, with the safe targeted [CC-25-000198:narrative][CC-25-000234:narrative][CC-25-000312:narrative][CC-26-000391:narrative]. Electronics were left behind each time. Four are in Northgate and one is in nearby Greenwood, 09DEC to 09JAN [CC-25-000261:narrative]."
+      },
+      {
+        "case_ids": [
+          "CC-26-000409",
+          "CC-26-000445",
+          "CC-26-000473",
+          "CC-26-000482"
+        ],
+        "rationale_with_citations": "Each is a weekday daytime business burglary through a rear door with the glass smashed. The loss each time is power tools plus cash [CC-26-000409:narrative][CC-26-000445:narrative][CC-26-000473:narrative][CC-26-000482:narrative]. Each time the doorbell cam was disabled or covered and electronics were left. All four fall within 13JAN to 28JAN in central neighbourhoods [CC-26-000445:narrative][CC-26-000482:narrative]."
+      },
+      {
+        "case_ids": [
+          "CC-25-000120",
+          "CC-25-000141",
+          "CC-25-000210"
+        ],
+        "rationale_with_citations": "Each is a daytime-to-evening home burglary through a roof or vent opening, pried, with the master bedroom (MBR) ransacked [CC-25-000120:narrative][CC-25-000141:narrative][CC-25-000210:narrative]. Each lost a cell phone plus jewellery. Two of them lost a blue Lumo Edge 5 phone and assorted rings and earrings, in Northgate 12 days apart [CC-25-000141:narrative][CC-25-000210:narrative]."
+      },
+      {
+        "case_ids": [
+          "CC-25-000158",
+          "CC-25-000165"
+        ],
+        "rationale_with_citations": "Both are daytime home burglaries in Capitol Hill on consecutive days, 04DEC and 05DEC, through a rear or sliding door that was pried [CC-25-000158:narrative][CC-25-000165:narrative]. Each lost cash, an Aldane K14 laptop and a phone; the MBR was ransacked and a safe targeted [CC-25-000158:narrative][CC-25-000165:narrative]."
+      },
+      {
+        "case_ids": [
+          "CC-25-000341",
+          "CC-26-000485"
+        ],
+        "rationale_with_citations": "Both are daytime home burglaries in Mount Baker through a rear door opened with a key or code. Both lost a white Kestrel Ultra 16 laptop and a Sonique 55in TV [CC-25-000341:narrative][CC-26-000485:narrative]. Both had the MBR ransacked and the doorbell cam unplugged or covered [CC-25-000341:narrative][CC-26-000485:narrative]."
+      },
+      {
+        "case_ids": [
+          "CC-26-000413",
+          "CC-26-000431"
+        ],
+        "rationale_with_citations": "Both are daytime burglaries of a detached garage in SLU/Cascade, three days apart, through a garage door with the glass smashed [CC-26-000413:narrative][CC-26-000431:narrative]. Each lost a Cyclade bicycle plus one electronics item, and the doorbell cam was unplugged or covered [CC-26-000413:narrative][CC-26-000431:narrative]."
+      },
+      {
+        "case_ids": [
+          "CC-26-000491",
+          "CC-26-000553",
+          "CC-26-000558",
+          "CC-26-000633",
+          "CC-26-000731"
+        ],
+        "rationale_with_citations": "Each is a daytime or early-evening detached-garage burglary through a window opened with a key or code, with no force [CC-26-000491:narrative][CC-26-000553:narrative][CC-26-000558:narrative]. The loss each time is a bicycle plus a bag or luggage and an electronics item or tool [CC-26-000633:narrative][CC-26-000731:narrative]. Most had the doorbell cam unplugged. The cases are in nearby SODO, Downtown and Capitol Hill, 29JAN to 18MAR."
+      },
+      {
+        "case_ids": [
+          "CC-26-000547",
+          "CC-26-000627",
+          "CC-26-000636"
+        ],
+        "rationale_with_citations": "Each is a morning storage-unit burglary through a roof or vent opening with the glass smashed. The loss each time is a power tool, a TV or soundbar and a bicycle [CC-26-000547:narrative][CC-26-000627:narrative][CC-26-000636:narrative]. All three had the doorbell cam unplugged and a safe targeted. They are in nearby Wallingford, Fremont and University, within 15 days."
+      },
+      {
+        "case_ids": [
+          "CC-26-001036",
+          "CC-26-001069",
+          "CC-26-001121",
+          "CC-26-001171"
+        ],
+        "rationale_with_citations": "Each is a daytime detached-garage burglary in Queen Anne through the garage door, opened with a key or code [CC-26-001036:narrative][CC-26-001069:narrative][CC-26-001121:narrative][CC-26-001171:narrative]. Each lost a bicycle plus a handbag, backpack or coin collection, and electronics were ignored. All four fall within 17MAY to 07JUN. In two of them a witness saw a subject in a dark hoodie leaving on foot [CC-26-001036:narrative][CC-26-001171:narrative]."
+      },
+      {
+        "case_ids": [
+          "CC-26-001416",
+          "CC-26-001499",
+          "CC-26-001583",
+          "CC-26-001700"
+        ],
+        "rationale_with_citations": "Each is a daytime storage-unit burglary in Ballard South, pried at an unknown point of entry (POE). The loss each time is a bicycle plus a Brannock handgun and a personal item [CC-26-001416:narrative][CC-26-001499:narrative][CC-26-001583:narrative][CC-26-001700:narrative]. Each time the doorbell cam was disabled and electronics were left. The cases are roughly two weeks apart, 26JUL to 13SEP."
+      },
+      {
+        "case_ids": [
+          "CC-26-001656",
+          "CC-26-001728"
+        ],
+        "rationale_with_citations": "Both are late-night storage-unit burglaries in Belltown, Saturdays two weeks apart, through a roof or vent opening that was pried [CC-26-001656:narrative][CC-26-001728:narrative]. Each lost a Brannock B9 handgun, a power tool and a Vantel electronics item; the doorbell cam was unplugged and a safe targeted [CC-26-001656:narrative][CC-26-001728:narrative]."
+      },
+      {
+        "case_ids": [
+          "CC-26-001387",
+          "CC-26-001409",
+          "CC-26-001442"
+        ],
+        "rationale_with_citations": "Each is a daytime home burglary through a sliding door with the screen cut. The loss each time is a power tool, cash and jewellery or a watch; electronics were ignored and vehicle keys taken but the vehicle left [CC-26-001387:narrative][CC-26-001409:narrative][CC-26-001442:narrative]. The cases are in nearby Capitol Hill, Judkins Park and Chinatown, within 11 days. CC-26-001353 and CC-26-001354 match the pattern but share the same time window in distant areas [CC-26-001353:narrative][CC-26-001354:narrative], so both were left out."
+      },
+      {
+        "case_ids": [
+          "CC-26-001594",
+          "CC-26-001604",
+          "CC-26-001612"
+        ],
+        "rationale_with_citations": "Each is an evening home burglary through a rear window opened with a key or code, with no force [CC-26-001594:narrative][CC-26-001604:narrative][CC-26-001612:narrative]. Each lost two Ridgeback or Torvane power tools plus cash, and electronics were ignored. The cases are in Central Area and Capitol Hill, 24AUG to 28AUG."
+      },
+      {
+        "case_ids": [
+          "CC-26-001734",
+          "CC-26-001743",
+          "CC-26-001768",
+          "CC-26-001819",
+          "CC-26-001851"
+        ],
+        "rationale_with_citations": "Each is a weekday morning business burglary with the front door kicked in. The loss each time is a cell phone plus speakers, a soundbar or a TV [CC-26-001734:narrative][CC-26-001743:narrative][CC-26-001768:narrative][CC-26-001819:narrative]. Every case had the doorbell cam disabled or covered. They are in Belltown, Capitol Hill and SLU, 21SEP to 13OCT [CC-26-001851:narrative]."
+      },
+      {
+        "case_ids": [
+          "CC-26-000734",
+          "CC-26-000845"
+        ],
+        "rationale_with_citations": "Both are daytime home burglaries in north-end neighbourhoods through the front door with the glass smashed. Each lost a phone, cash and a Playnova Core 5 Slim console [CC-26-000734:narrative][CC-26-000845:narrative]. Both had a safe targeted and vehicle keys taken but the vehicle left [CC-26-000734:narrative][CC-26-000845:narrative]."
+      },
+      {
+        "case_ids": [
+          "CC-26-001637",
+          "CC-26-001703"
+        ],
+        "rationale_with_citations": "Both are overnight-to-morning home burglaries (location UNKNOWN) through a window with the glass smashed. Each lost an Optara camera plus a game console [CC-26-001637:narrative][CC-26-001703:narrative]. Both had the doorbell cam disabled and a small safe targeted and removed, 13 days apart [CC-26-001637:narrative][CC-26-001703:narrative]."
+      },
+      {
+        "case_ids": [
+          "CC-26-001611",
+          "CC-26-001672"
+        ],
+        "rationale_with_citations": "Both are late-evening home burglaries in Sandpoint, ending at 2400, through a sliding door with the glass smashed [CC-26-001611:narrative][CC-26-001672:narrative]. Each lost a cell phone and camera, and vehicle keys were taken but the vehicle left [CC-26-001611:narrative][CC-26-001672:narrative]."
+      },
+      {
+        "case_ids": [
+          "CC-25-000103",
+          "CC-25-000229",
+          "CC-26-000393"
+        ],
+        "rationale_with_citations": "Each is an overnight business burglary through a roof or vent opening that was pried. The loss each time is a power tool, with cash in two of them, and electronics were left [CC-25-000103:narrative][CC-25-000229:narrative][CC-26-000393:narrative]. Two are in Queen Anne and one is Downtown, 24NOV to 10JAN; two had the doorbell cam disabled [CC-25-000103:narrative][CC-26-000393:narrative]. This link is moderate and needs analyst review."
+      }
+    ],
+    "series": [
+      [
+        "CC-25-000345",
+        "CC-26-000358",
+        "CC-26-000416",
+        "CC-26-000426"
+      ],
+      [
+        "CC-26-000589",
+        "CC-26-000592",
+        "CC-26-000603",
+        "CC-26-000674",
+        "CC-26-000713"
+      ],
+      [
+        "CC-26-001530",
+        "CC-26-001636"
+      ],
+      [
+        "CC-25-000198",
+        "CC-25-000234",
+        "CC-25-000261",
+        "CC-25-000312",
+        "CC-26-000391"
+      ],
+      [
+        "CC-26-000409",
+        "CC-26-000445",
+        "CC-26-000473",
+        "CC-26-000482"
+      ],
+      [
+        "CC-25-000120",
+        "CC-25-000141",
+        "CC-25-000210"
+      ],
+      [
+        "CC-25-000158",
+        "CC-25-000165"
+      ],
+      [
+        "CC-25-000341",
+        "CC-26-000485"
+      ],
+      [
+        "CC-26-000413",
+        "CC-26-000431"
+      ],
+      [
+        "CC-26-000491",
+        "CC-26-000553",
+        "CC-26-000558",
+        "CC-26-000633",
+        "CC-26-000731"
+      ],
+      [
+        "CC-26-000547",
+        "CC-26-000627",
+        "CC-26-000636"
+      ],
+      [
+        "CC-26-001036",
+        "CC-26-001069",
+        "CC-26-001121",
+        "CC-26-001171"
+      ],
+      [
+        "CC-26-001416",
+        "CC-26-001499",
+        "CC-26-001583",
+        "CC-26-001700"
+      ],
+      [
+        "CC-26-001656",
+        "CC-26-001728"
+      ],
+      [
+        "CC-26-001387",
+        "CC-26-001409",
+        "CC-26-001442"
+      ],
+      [
+        "CC-26-001594",
+        "CC-26-001604",
+        "CC-26-001612"
+      ],
+      [
+        "CC-26-001734",
+        "CC-26-001743",
+        "CC-26-001768",
+        "CC-26-001819",
+        "CC-26-001851"
+      ],
+      [
+        "CC-26-000734",
+        "CC-26-000845"
+      ],
+      [
+        "CC-26-001637",
+        "CC-26-001703"
+      ],
+      [
+        "CC-26-001611",
+        "CC-26-001672"
+      ],
+      [
+        "CC-25-000103",
+        "CC-25-000229",
+        "CC-26-000393"
+      ]
+    ]
+  },
+  "duration_ms": 84430,
+  "cost_usd": 0.4419555,
+  "input_tokens": 53104,
+  "output_tokens": 10491
+}

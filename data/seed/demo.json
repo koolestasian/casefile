@@ -1,0 +1,136 @@
+{
+  "hero_decoy": {
+    "case_ids": [
+      "CC-26-001509",
+      "CC-26-001670",
+      "CC-26-001508"
+    ],
+    "offending_case": "CC-26-001508",
+    "violates": "spatiotemporal_infeasible"
+  },
+  "hero_pawn": {
+    "case_id": "CC-26-001996",
+    "item_id": "CC-26-001996-I1",
+    "note": "offense window ended ~5.5 days before the report; laptop pawned 3 days after the window",
+    "pawn_id": "PW-26-001493",
+    "trap_pawn_id": "PW-26-001489"
+  },
+  "hero_series": {
+    "arrestee_ref": "ARR-00001",
+    "case_ids": [
+      "CC-26-001746",
+      "CC-26-001752",
+      "CC-26-001817",
+      "CC-26-001841",
+      "CC-26-001856",
+      "CC-26-001930",
+      "CC-26-001999"
+    ],
+    "cleared_case": "CC-26-001817",
+    "queue_case": "CC-26-001999"
+  },
+  "hero_weak": {
+    "case_id": "CC-26-001992"
+  },
+  "queue": [
+    "CC-26-001965",
+    "CC-26-001966",
+    "CC-26-001967",
+    "CC-26-001968",
+    "CC-26-001969",
+    "CC-26-001970",
+    "CC-26-001971",
+    "CC-26-001972",
+    "CC-26-001973",
+    "CC-26-001974",
+    "CC-26-001975",
+    "CC-26-001976",
+    "CC-26-001977",
+    "CC-26-001978",
+    "CC-26-001979",
+    "CC-26-001980",
+    "CC-26-001981",
+    "CC-26-001982",
+    "CC-26-001983",
+    "CC-26-001984",
+    "CC-26-001985",
+    "CC-26-001986",
+    "CC-26-001987",
+    "CC-26-001988",
+    "CC-26-001989",
+    "CC-26-001990",
+    "CC-26-001991",
+    "CC-26-001992",
+    "CC-26-001993",
+    "CC-26-001994",
+    "CC-26-001995",
+    "CC-26-001996",
+    "CC-26-001997",
+    "CC-26-001998",
+    "CC-26-001999",
+    "CC-26-002000"
+  ],
+  "queue_leads": [
+    {
+      "case_id": "CC-26-001975",
+      "item_id": "CC-26-001975-I2",
+      "kind": "marking_candidate",
+      "pawn_id": "PW-26-001501"
+    },
+    {
+      "case_id": "CC-26-001978",
+      "item_id": "CC-26-001978-I1",
+      "kind": "marking_candidate",
+      "pawn_id": "PW-26-001502"
+    },
+    {
+      "case_id": "CC-26-001976",
+      "item_id": "CC-26-001976-I2",
+      "kind": "exact_serial",
+      "pawn_id": "PW-26-001503"
+    },
+    {
+      "case_id": "CC-26-001976",
+      "item_id": "CC-26-001976-I2",
+      "kind": "rejected_serial",
+      "pawn_id": "PW-26-001504"
+    },
+    {
+      "case_id": "CC-26-001982",
+      "item_id": "CC-26-001982-I1",
+      "kind": "exact_serial",
+      "pawn_id": "PW-26-001505"
+    },
+    {
+      "case_id": "CC-26-001985",
+      "item_id": "CC-26-001985-I1",
+      "kind": "exact_serial",
+      "pawn_id": "PW-26-001506"
+    },
+    {
+      "case_id": "CC-26-001986",
+      "item_id": "CC-26-001986-I1",
+      "kind": "exact_serial",
+      "pawn_id": "PW-26-001507"
+    },
+    {
+      "case_id": "CC-26-001987",
+      "item_id": "CC-26-001987-I2",
+      "kind": "exact_serial",
+      "pawn_id": "PW-26-001508"
+    },
+    {
+      "case_id": "CC-26-001989",
+      "item_id": "CC-26-001989-I1",
+      "kind": "exact_serial",
+      "pawn_id": "PW-26-001509"
+    },
+    {
+      "case_id": "CC-26-001991",
+      "item_id": "CC-26-001991-I1",
+      "kind": "rejected_serial",
+      "pawn_id": "PW-26-001510"
+    }
+  ],
+  "queue_leads_note": "Curated for the demo: delayed-report queue cases with planted pawn records, one per lead path. A showcase mix, not a measured rate; the cost model's resurfacing assumption is unchanged and evals exclude these records."
+}

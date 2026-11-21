@@ -1,0 +1,80 @@
+{
+  "agent": "extractor",
+  "input_id": "CC-26-001972",
+  "model": "haiku",
+  "recorded_at": "unix:1793945509",
+  "events": [
+    {
+      "type": "assistant",
+      "message": {
+        "content": [
+          {
+            "type": "tool_use",
+            "id": "toolu_01AdqF8qK29RKHihdt4ifWDv",
+            "name": "StructuredOutput",
+            "input": {
+              "items": [
+                "J91-R67GE",
+                "RXS-82ZYR"
+              ],
+              "mo": {
+                "entry_method": "smash",
+                "entry_point": "sliding_door",
+                "premise": "residential",
+                "property_types": [
+                  "phone",
+                  "jewelry"
+                ],
+                "signatures": [
+                  "used_pillowcase",
+                  "disabled_doorbell_cam"
+                ],
+                "time_band": "evening",
+                "weekday": true
+              },
+              "notes": "The window is 1808 to 2008 on Wednesday 04NOV, which falls in the evening band and on a weekday. The Pyxa serial J91-R67GE appears only in the item list without an \"S/N\" label, so it is read as a serial by position."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "user",
+      "message": {
+        "content": [
+          {
+            "type": "tool_result",
+            "tool_use_id": "toolu_01AdqF8qK29RKHihdt4ifWDv",
+            "content": "Structured output provided successfully"
+          }
+        ]
+      }
+    }
+  ],
+  "output": {
+    "items": [
+      "J91-R67GE",
+      "RXS-82ZYR"
+    ],
+    "mo": {
+      "entry_method": "smash",
+      "entry_point": "sliding_door",
+      "premise": "residential",
+      "property_types": [
+        "phone",
+        "jewelry"
+      ],
+      "signatures": [
+        "used_pillowcase",
+        "disabled_doorbell_cam"
+      ],
+      "time_band": "evening",
+      "weekday": true
+    },
+    "notes": "The window is 1808 to 2008 on Wednesday 04NOV, which falls in the evening band and on a weekday. The Pyxa serial J91-R67GE appears only in the item list without an \"S/N\" label, so it is read as a serial by position."
+  },
+  "duration_ms": 6525,
+  "cost_usd": 0.0016464500000000005,
+  "input_tokens": 13036,
+  "output_tokens": 1428
+}

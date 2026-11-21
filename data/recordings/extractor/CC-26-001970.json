@@ -1,0 +1,78 @@
+{
+  "agent": "extractor",
+  "input_id": "CC-26-001970",
+  "model": "haiku",
+  "recorded_at": "unix:1793945492",
+  "events": [
+    {
+      "type": "assistant",
+      "message": {
+        "content": [
+          {
+            "type": "tool_use",
+            "id": "toolu_01PetjSQqqQ5qCFKkadHXkA5",
+            "name": "StructuredOutput",
+            "input": {
+              "items": [
+                "P1J-TZ6MP"
+              ],
+              "mo": {
+                "entry_method": "pry",
+                "entry_point": "other",
+                "premise": "storage",
+                "property_types": [
+                  "tools",
+                  "other",
+                  "firearm"
+                ],
+                "signatures": [
+                  "safe_targeted"
+                ],
+                "time_band": "evening",
+                "weekday": true
+              },
+              "notes": "Entry was through a roof or vent opening, which I mapped to \"other\" since no other entry point fits. The narrative says the safe was targeted but does not say it was opened, so only the targeting is recorded as a signature."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "user",
+      "message": {
+        "content": [
+          {
+            "type": "tool_result",
+            "tool_use_id": "toolu_01PetjSQqqQ5qCFKkadHXkA5",
+            "content": "Structured output provided successfully"
+          }
+        ]
+      }
+    }
+  ],
+  "output": {
+    "items": [
+      "P1J-TZ6MP"
+    ],
+    "mo": {
+      "entry_method": "pry",
+      "entry_point": "other",
+      "premise": "storage",
+      "property_types": [
+        "tools",
+        "other",
+        "firearm"
+      ],
+      "signatures": [
+        "safe_targeted"
+      ],
+      "time_band": "evening",
+      "weekday": true
+    },
+    "notes": "Entry was through a roof or vent opening, which I mapped to \"other\" since no other entry point fits. The narrative says the safe was targeted but does not say it was opened, so only the targeting is recorded as a signature."
+  },
+  "duration_ms": 5861,
+  "cost_usd": 0.0015202750000000002,
+  "input_tokens": 12993,
+  "output_tokens": 1142
+}

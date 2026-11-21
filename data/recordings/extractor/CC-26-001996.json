@@ -1,0 +1,76 @@
+{
+  "agent": "extractor",
+  "input_id": "CC-26-001996",
+  "model": "haiku",
+  "recorded_at": "unix:1793945418",
+  "events": [
+    {
+      "type": "assistant",
+      "message": {
+        "content": [
+          {
+            "type": "tool_use",
+            "id": "toolu_01Rdy4o3nzK2PDyUkWqSfTLe",
+            "name": "StructuredOutput",
+            "input": {
+              "items": [
+                "VLX-FUW9X"
+              ],
+              "mo": {
+                "entry_method": "pry",
+                "entry_point": "rear_door",
+                "premise": "residential",
+                "property_types": [
+                  "laptop",
+                  "other"
+                ],
+                "signatures": [
+                  "pried_rear_door_frame"
+                ],
+                "time_band": "unknown",
+                "weekday": true
+              },
+              "notes": "The offense window runs WED 28OCT 0200 to FRI 30OCT 2000 and spans multiple days, so time_band is unknown; all days in the window are Monday to Friday. The wristwatch (I2) has no serial number, and the narrative's \"window\" is the offense-window label, not an entry point."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "user",
+      "message": {
+        "content": [
+          {
+            "type": "tool_result",
+            "tool_use_id": "toolu_01Rdy4o3nzK2PDyUkWqSfTLe",
+            "content": "Structured output provided successfully"
+          }
+        ]
+      }
+    }
+  ],
+  "output": {
+    "items": [
+      "VLX-FUW9X"
+    ],
+    "mo": {
+      "entry_method": "pry",
+      "entry_point": "rear_door",
+      "premise": "residential",
+      "property_types": [
+        "laptop",
+        "other"
+      ],
+      "signatures": [
+        "pried_rear_door_frame"
+      ],
+      "time_band": "unknown",
+      "weekday": true
+    },
+    "notes": "The offense window runs WED 28OCT 0200 to FRI 30OCT 2000 and spans multiple days, so time_band is unknown; all days in the window are Monday to Friday. The wristwatch (I2) has no serial number, and the narrative's \"window\" is the offense-window label, not an entry point."
+  },
+  "duration_ms": 7371,
+  "cost_usd": 0.0015672,
+  "input_tokens": 12926,
+  "output_tokens": 1472
+}

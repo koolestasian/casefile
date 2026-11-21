@@ -1,0 +1,66 @@
+{
+  "agent": "extractor",
+  "input_id": "CC-26-001992",
+  "model": "haiku",
+  "recorded_at": "unix:1793945433",
+  "events": [
+    {
+      "type": "assistant",
+      "message": {
+        "content": [
+          {
+            "type": "tool_use",
+            "id": "toolu_01S5u2SGtij6zLg18e1Bkr7V",
+            "name": "StructuredOutput",
+            "input": {
+              "items": [],
+              "mo": {
+                "entry_method": "smash",
+                "entry_point": "window",
+                "premise": "residential",
+                "property_types": [
+                  "cash"
+                ],
+                "signatures": [],
+                "time_band": "unknown",
+                "weekday": true
+              },
+              "notes": "The offense window runs from Wed 04NOV 1900 to Thu 05NOV 0400, spanning evening into early morning, so no single time band fits and it is marked unknown. The item CC-26-001992-I1 is a case item reference, and the narrative states \"no serial,\" so no serial numbers are listed."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "user",
+      "message": {
+        "content": [
+          {
+            "type": "tool_result",
+            "tool_use_id": "toolu_01S5u2SGtij6zLg18e1Bkr7V",
+            "content": "Structured output provided successfully"
+          }
+        ]
+      }
+    }
+  ],
+  "output": {
+    "items": [],
+    "mo": {
+      "entry_method": "smash",
+      "entry_point": "window",
+      "premise": "residential",
+      "property_types": [
+        "cash"
+      ],
+      "signatures": [],
+      "time_band": "unknown",
+      "weekday": true
+    },
+    "notes": "The offense window runs from Wed 04NOV 1900 to Thu 05NOV 0400, spanning evening into early morning, so no single time band fits and it is marked unknown. The item CC-26-001992-I1 is a case item reference, and the narrative states \"no serial,\" so no serial numbers are listed."
+  },
+  "duration_ms": 8068,
+  "cost_usd": 0.0016185,
+  "input_tokens": 12874,
+  "output_tokens": 1597
+}

@@ -1,0 +1,80 @@
+{
+  "agent": "extractor",
+  "input_id": "CC-26-001973",
+  "model": "haiku",
+  "recorded_at": "unix:1793945519",
+  "events": [
+    {
+      "type": "assistant",
+      "message": {
+        "content": [
+          {
+            "type": "tool_use",
+            "id": "toolu_01FPEK7URUagoo3q3TUr8Tst",
+            "name": "StructuredOutput",
+            "input": {
+              "items": [
+                "T6G-183G1",
+                "4J6-90F5Q"
+              ],
+              "mo": {
+                "entry_method": "pry",
+                "entry_point": "front_door",
+                "premise": "residential",
+                "property_types": [
+                  "game_console",
+                  "camera",
+                  "electronics"
+                ],
+                "signatures": [
+                  "used_pillowcase"
+                ],
+                "time_band": "evening",
+                "weekday": true
+              },
+              "notes": "The offense window (WED 04NOV, 1638-2038) runs from late afternoon into evening, so \"evening\" is an approximate band. The \"etched ZX-0032\" marking on the speaker is recorded as a marking, not a serial number, so it is left out of items."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "user",
+      "message": {
+        "content": [
+          {
+            "type": "tool_result",
+            "tool_use_id": "toolu_01FPEK7URUagoo3q3TUr8Tst",
+            "content": "Structured output provided successfully"
+          }
+        ]
+      }
+    }
+  ],
+  "output": {
+    "items": [
+      "T6G-183G1",
+      "4J6-90F5Q"
+    ],
+    "mo": {
+      "entry_method": "pry",
+      "entry_point": "front_door",
+      "premise": "residential",
+      "property_types": [
+        "game_console",
+        "camera",
+        "electronics"
+      ],
+      "signatures": [
+        "used_pillowcase"
+      ],
+      "time_band": "evening",
+      "weekday": true
+    },
+    "notes": "The offense window (WED 04NOV, 1638-2038) runs from late afternoon into evening, so \"evening\" is an approximate band. The \"etched ZX-0032\" marking on the speaker is recorded as a marking, not a serial number, so it is left out of items."
+  },
+  "duration_ms": 6709,
+  "cost_usd": 0.001749075,
+  "input_tokens": 13081,
+  "output_tokens": 1555
+}

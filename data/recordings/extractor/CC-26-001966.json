@@ -1,0 +1,74 @@
+{
+  "agent": "extractor",
+  "input_id": "CC-26-001966",
+  "model": "haiku",
+  "recorded_at": "unix:1793945455",
+  "events": [
+    {
+      "type": "assistant",
+      "message": {
+        "content": [
+          {
+            "type": "tool_use",
+            "id": "toolu_01VHNqvg3u5pF7xC6NuPuXYc",
+            "name": "StructuredOutput",
+            "input": {
+              "items": [
+                "R24-RGAL2"
+              ],
+              "mo": {
+                "entry_method": "pry",
+                "entry_point": "sliding_door",
+                "premise": "residential",
+                "property_types": [
+                  "tablet"
+                ],
+                "signatures": [
+                  "used_pillowcase"
+                ],
+                "time_band": "unknown",
+                "weekday": true
+              },
+              "notes": "The offense window runs from last secure at 1323 to discovery at 1823 on WED 04NOV, which spans midday into evening, so time_band is unknown. Weekday is true because both bounds fall on a Wednesday; the item serial is R24-RGAL2 and CC-26-001966-I1 is the item ID."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "user",
+      "message": {
+        "content": [
+          {
+            "type": "tool_result",
+            "tool_use_id": "toolu_01VHNqvg3u5pF7xC6NuPuXYc",
+            "content": "Structured output provided successfully"
+          }
+        ]
+      }
+    }
+  ],
+  "output": {
+    "items": [
+      "R24-RGAL2"
+    ],
+    "mo": {
+      "entry_method": "pry",
+      "entry_point": "sliding_door",
+      "premise": "residential",
+      "property_types": [
+        "tablet"
+      ],
+      "signatures": [
+        "used_pillowcase"
+      ],
+      "time_band": "unknown",
+      "weekday": true
+    },
+    "notes": "The offense window runs from last secure at 1323 to discovery at 1823 on WED 04NOV, which spans midday into evening, so time_band is unknown. Weekday is true because both bounds fall on a Wednesday; the item serial is R24-RGAL2 and CC-26-001966-I1 is the item ID."
+  },
+  "duration_ms": 5559,
+  "cost_usd": 0.001558125,
+  "input_tokens": 12899,
+  "output_tokens": 1274
+}

@@ -1,0 +1,72 @@
+{
+  "agent": "extractor",
+  "input_id": "CC-26-001967",
+  "model": "haiku",
+  "recorded_at": "unix:1793945465",
+  "events": [
+    {
+      "type": "assistant",
+      "message": {
+        "content": [
+          {
+            "type": "tool_use",
+            "id": "toolu_012sFn7sm3xxGmnZ7vKCFqVk",
+            "name": "StructuredOutput",
+            "input": {
+              "items": [
+                "4NF-AYFW4",
+                "JPY-CX6TS"
+              ],
+              "mo": {
+                "entry_method": "key_or_code",
+                "entry_point": "window",
+                "premise": "residential",
+                "property_types": [
+                  "electronics"
+                ],
+                "signatures": [],
+                "time_band": "unknown",
+                "weekday": true
+              },
+              "notes": "The narrative says RESD but the case header says DOWNTOWN COMMERCIAL, so premise needs officer confirmation. The offense window (1244-1844) spans midday into evening, so time_band is unknown; the item IDs CC-26-001967-I1 and I2 are case item numbers and were not listed as serials."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "user",
+      "message": {
+        "content": [
+          {
+            "type": "tool_result",
+            "tool_use_id": "toolu_012sFn7sm3xxGmnZ7vKCFqVk",
+            "content": "Structured output provided successfully"
+          }
+        ]
+      }
+    }
+  ],
+  "output": {
+    "items": [
+      "4NF-AYFW4",
+      "JPY-CX6TS"
+    ],
+    "mo": {
+      "entry_method": "key_or_code",
+      "entry_point": "window",
+      "premise": "residential",
+      "property_types": [
+        "electronics"
+      ],
+      "signatures": [],
+      "time_band": "unknown",
+      "weekday": true
+    },
+    "notes": "The narrative says RESD but the case header says DOWNTOWN COMMERCIAL, so premise needs officer confirmation. The offense window (1244-1844) spans midday into evening, so time_band is unknown; the item IDs CC-26-001967-I1 and I2 are case item numbers and were not listed as serials."
+  },
+  "duration_ms": 7299,
+  "cost_usd": 0.001683025,
+  "input_tokens": 12983,
+  "output_tokens": 1504
+}
