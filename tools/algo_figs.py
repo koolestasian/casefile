@@ -1,6 +1,6 @@
 """Generate the README algorithm figures (animated SVG) from evals/bench.md and the engine constants.
 
-    python -I tools/algo_figs.py            # writes docs/img/*.svg
+    python -I tools/algo_figs.py [report]   # writes docs/img/*.svg
 
 Numbers come only from `casefile bench` output; nothing is typed in by hand.
 """
@@ -136,10 +136,11 @@ def sweep_svg():
 
 
 def main():
-    md = (ROOT / "evals" / "bench.md").read_text(encoding="utf-8")
+    report = Path(sys.argv[1]) if len(sys.argv) > 1 else ROOT / "evals" / "bench.md"
+    md = report.read_text(encoding="utf-8")
     rows, funnel = parse_bench(md)
     if not rows or not funnel:
-        sys.exit("evals/bench.md has no bench table; run `casefile bench` first")
+        sys.exit(f"{report} has no bench table; run `casefile bench` first")
     if not all(r["same"] for r in rows):
         sys.exit("bench reports a mismatch; refusing to chart it")
     OUT.mkdir(parents=True, exist_ok=True)
