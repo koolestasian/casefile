@@ -27,3 +27,7 @@ jobs:
         run: cargo clippy --locked --all-targets -- -D warnings
       - name: UI regression checks
         run: node ui/checks.cjs
+      - name: Reproduce README figures
+        run: |
+          python -I tools/algo_figs.py evals/bench-scaling.md
+          git diff --exit-code -- docs/img
