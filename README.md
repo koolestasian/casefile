@@ -1,7 +1,6 @@
 # Casefile
 
-A Rust investigation workbench that combines AI proposals with deterministic
-verification, cited evidence and human approval. Built for an ESEC x NetworkAI 2026 case competition.
+Built for an ESEC x NetworkAI 2026 case competition.
 
 **Technical lead: Kevin Pham — system architecture, performance optimization and evaluation.**
 
@@ -187,6 +186,8 @@ cargo test --locked
 cargo clippy --locked --all-targets -- -D warnings
 cargo run --release --locked -- bench --scales 1 --reps 3
 ```
+A Rust investigation workbench that combines AI proposals with deterministic
+verification, cited evidence and human approval. 
 
 The evaluation uses planted synthetic ground truth. Agent prompts are maintained
 separately; the checked-in recordings support the public offline demo.
