@@ -46,14 +46,10 @@ cargo run --locked -- serve
 Open <http://localhost:8080>. The demo includes 2,000 synthetic cases, pawn records,
 a curated review queue and recorded agent runs. It needs no model credentials.
 
-Open `/algo.html` using **How it works**, or open `ui/algo.html` directly in a
-browser. The explainer includes live scoring sliders, the animated time sweep,
-pruning regions, union-find re-splitting, a step-through top-k heap and the pawn
-index. Formula rendering uses vendored KaTeX and works offline.
 
 ## How the engine works
 
-**Interactive version:** run the console and open **`/algo.html`** (button "How it works"), or just open `ui/algo.html` in a browser. It starts with a one-minute plain-English explanation, then the interactive panels, then **every formula with proofs** (KaTeX, vendored, works offline). The panels: live sliders for the score, an animated time sweep, the pruning region over real pairs, union-find clustering with re-split, a step-through top-k heap and the pawn index.
+**Interactive version:** run the console and open **`/algo.html`** (button "How it works"), or just open `ui/algo.html` in a browser. It starts with a one-minute plain-English explanation, then the interactive panels, then **every formula with proofs** (KaTeX, vendored, works offline). The panels: live sliders for the score, an animated time sweep, the pruning region over real pairs, union-find clustering with re-split, a step-through top-k heap and the pawn index. Formula rendering uses vendored KaTeX and works offline.
 
 ```mermaid
 flowchart LR
