@@ -1,12 +1,18 @@
 # Casefile
 
-Built for ESEC x NetworkAI 2026 case competition.
 
 **Technical lead: Kevin Pham — system architecture, performance optimization and evaluation.**
 
 Casefile connects related burglary reports, matches stolen property against pawn
 records, and assembles a reviewable lead packet. Its central design separates
 flexible language-model work from decisions that need exact, reproducible checks.
+
+## Case context
+
+Casefile was built for the **ESEC x NetworkAI 2026 case competition, “Cracking the Burglary Backlog.”** The brief centered on Cascade City, a fictional West Coast city where limited detective capacity leaves burglary reports, recurring patterns and stolen-property records disconnected.
+
+The case baseline allocated **330 minutes of investigative work per burglary**, totaling **$3.05 million annually**. The challenge set two targets: reduce investigative labor costs by **15% net of implementation and operating costs**, and increase clearances by **25% relative to the baseline**.
+
 
 ## Demo
 
