@@ -1,6 +1,6 @@
 # Casefile
 
-Built for an ESEC x NetworkAI 2026 case competition.
+Built for ESEC x NetworkAI 2026 case competition.
 
 **Technical lead: Kevin Pham — system architecture, performance optimization and evaluation.**
 
